@@ -14,13 +14,13 @@ To use this script, one must run on a terminal:
 python convert_images.py <folder_path>
 ```
 Default behaviour will convert all files in `folder_path` to the **png** extension, and saved them at `treated_images`. There are several flags available to the user:
-    * `-t`, `--type` desired_extension - Defines the desired extension for the output images. defaults to `png`
-    * `-o` `--output` outfolder - Defines the output folder where converted images will be saved. Defaults to `treated_images`
-    * `-s` `--rescale` width height - Defines the width and height that the new image should be rescaled to. Bothe values should be positive integers. Defaults to `None`
-    * `-r` `--rotate` degrees - Defines the degrees in which the image will be rotated. This value should be an integer. Defaults to `None`.
-    * `-g` `--grayscale` - Flag to be passed if the user desires to save the image as grayscale.
-    * `-v` `--verbose` - Flag to be passed to activate verbose. By default, the script will print only messages for images that were not opened by any reason. If activated, it will print a message containing all the treatments made for the image and where it was saved.
-    * `-l` `--log` - Flag to be passed to if the user wishes to save treatment information on a file, `log_file.txt`. The information is exactly the same as the one printed if verbose is activated. 
+* `-t`, `--type` desired_extension - Defines the desired extension for the output images. defaults to `png`
+* `-o` `--output` outfolder - Defines the output folder where converted images will be saved. Defaults to `treated_images`
+* `-s` `--rescale` width height - Defines the width and height that the new image should be rescaled to. Bothe values should be positive integers. Defaults to `None`
+* `-r` `--rotate` degrees - Defines the degrees in which the image will be rotated. This value should be an integer. Defaults to `None`.
+* `-g` `--grayscale` - Flag to be passed if the user desires to save the image as grayscale.
+* `-v` `--verbose` - Flag to be passed to activate verbose. By default, the script will print only messages for images that were not opened by any reason. If activated, it will print a message containing all the treatments made for the image and where it was saved.
+* `-l` `--log` - Flag to be passed to if the user wishes to save treatment information on a file, `log_file.txt`. The information is exactly the same as the one printed if verbose is activated. 
 
 ### Examples 
 The example given here is the same as used in Coursera's assignment. The images in `images` need to be converted to the png image format, rotated by -90 degrees and rescaled to (128,128). To achieve this using this script, une should run the command: 
